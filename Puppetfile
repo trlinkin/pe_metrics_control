@@ -7,3 +7,10 @@ mod 'puppetlabs-bootstrap', '0.2.0'
 mod 'WhatsARanjit-puppeteer', '0.1.8'
 mod 'nate-purge_node', '1.2.0'
 
+
+# Metrics Dashboard currently being built
+mod 'pe_metrics_dashboard',
+  :git => 'https://github.com/puppetlabs/puppetlabs-pe_metrics_dashboard.git'
+
+mod 'puppet-grafana', '3.0.0'
+mod 'puppetlabs-stdlib'
